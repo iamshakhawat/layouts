@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout-2</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 90%;
+            height: auto;
+            margin:0 auto;
+            background-color: aliceblue;
+        }
+        header{
+            height: 50px;
+            line-height: 2;
+            text-align: center;
+            padding: 10px;
+            border: 2px solid #333;
+            color: green;
+            margin: 10px;
+        }
+        nav{
+            text-align: center;
+            height: 50px;
+            line-height: 2;
+            color: green;
+            padding: 10px;
+            border: 2px solid #333;
+            margin: 10px;
+        }
+        main{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 10px;
+            color: green;
+        }
+        .content{
+            text-align: center;
+            border: 2px solid #333;
+            padding: 10px;
+            height: 500px;
+            width: 20%;
+            line-height: 30;
+        }
+        .main_content{
+            width: 58%;
+        }
+        footer{
+            text-align: center;
+            height: 50px;
+            line-height: 2;
+            color: green;
+            padding: 10px;
+            border: 2px solid #333;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>Header</header>
+        <nav>Navigation Menu</nav>
+        <main>
+            <div class="content">Content</div>
+            <div class="content main_content">Main Content</div>
+            <div class="content">Content</div>
+        </main>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>
